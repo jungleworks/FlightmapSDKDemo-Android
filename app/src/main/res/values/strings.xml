@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FlightMapSdkTestApp</string>
+    <string name="description_add_bulk_markers">Add Markers In Bulk to a Map</string>
+    <string name="description_press_for_marker">Add marker to map on long press</string>
+    <string name="description_location_activation_builder">Use LocationComponentActivationOptions to set options</string>
+    <string name="description_polyline">Add a polyline to a map</string>
+    <string name="description_polygon">Add a polygon to a map</string>
+    <string name="description_rotatemarker">Rotate Marker and update position </string>
+    <string name="menuitem_title_concurrent_infowindow">Concurrent Open InfoWindows</string>
+    <string name="menuitem_title_deselect_markers_on_tap">Deselect Markers On Tap</string>
+    <string name="amount_of_markers">Amount of markers</string>
+    <string name="menuitem_title_reset">Reset</string>
+    <string name="add_accesstokenhere">FlightMap Access Token Here</string>
+    <string name="login">Login</string>
+    <string name="donthaveaccesstoken">Dont Have An Access Token ?</string>
+    <string name="action_calculate_distance">"Click the map to calculate the distance"</string>
+    <string name="description_info_window">Learn how to handle the InfoWindow</string>
+    <string name="description_dynamic_info_window_adapter">Learn how to create a dynamic custom InfoWindow</string>
+    <string name="dynamic_marker_delhi">Delhi</string>
+    <string name="dynamic_marker_chandigarh">Chandigarh</string>
+    <string name="dynamic_marker_chandigarh_snippet">Sector 17 </string>
+    <string name="dynamic_marker_delhi_snippet">India Gate</string>
+    <string name="button_camera_move">Move</string>
+    <string name="button_rotatemarker">Rotate a marker</string>
+    <string name="button_camera_ease">Ease</string>
+    <string name="button_camera_animate">Animate</string>
+    <string name="description_camera_animation_types">Showcase the different animation types</string>
+    <string name="description_custom_locationicon">Custom Location Icon</string>
+    <string name="description_dynamic_marker">Update position and icon</string>
+
+
+
+</resources>

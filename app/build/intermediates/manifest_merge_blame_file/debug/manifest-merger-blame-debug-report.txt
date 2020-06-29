@@ -1,0 +1,510 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.FlightMapSdkTestApp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:5:5-81
+11-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:6:5-80
+12-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:7:5-67
+13-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:8:5-79
+14-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:8:22-76
+15
+16    <uses-feature
+16-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:9:5-11:35
+17        android:glEsVersion="0x00020000"
+17-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:10:9-41
+18        android:required="true" />
+18-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:11:9-32
+19    <uses-feature
+19-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:12:5-14:36
+20        android:name="android.hardware.wifi"
+20-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:13:9-45
+21        android:required="false" />
+21-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:14:9-33
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:17:5-79
+23-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:17:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:18:5-76
+24-->[flightmapsdk.flightmaplightsdk:flightmap:1.3.3] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\af1b16ca3a83a5f59567d0052cb92dc6\jetified-flightmap-1.3.3\AndroidManifest.xml:18:22-73
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:25:5-68
+25-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:25:22-65
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:27:5-81
+26-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:27:22-78
+27
+28    <application
+28-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:10:5-150:19
+29        android:name="com.FlightMapSdkTestApp.FlightMapApplication"
+29-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:11:9-45
+30        android:allowBackup="true"
+30-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:12:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.1.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:13:9-43
+34        android:label="@string/app_name"
+34-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:14:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:15:9-54
+36        android:supportsRtl="true"
+36-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:16:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:17:9-40
+39        <activity
+39-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:19:9-29:20
+40            android:name="com.FlightMapSdkTestApp.Annotation.PolygonActivity"
+40-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:20:13-55
+41            android:description="@string/description_polygon"
+41-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:21:13-62
+42            android:label="@string/activity_polygon" >
+42-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:22:13-53
+43            <meta-data
+43-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+44                android:name="@string/category"
+44-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+45                android:value="@string/category_annotation" />
+45-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+46            <meta-data
+46-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+47                android:name="android.support.PARENT_ACTIVITY"
+47-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+48                android:value=".activities.FeatureHomeActivity" />
+48-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+49        </activity>
+50        <activity android:name="com.FlightMapSdkTestApp.activities.LoginActivity" >
+50-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:30:9-36:20
+50-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:30:19-59
+51            <intent-filter>
+51-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:31:13-35:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:32:17-69
+52-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:32:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:34:17-77
+54-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:34:27-74
+55            </intent-filter>
+56        </activity>
+57        <activity
+57-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:37:9-47:20
+58            android:name="com.FlightMapSdkTestApp.location.LocationComponentActivationActivity"
+58-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:38:13-73
+59            android:description="@string/description_location_activation_builder"
+59-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:39:13-82
+60            android:label="@string/activity_location_activation_builder" >
+60-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:40:13-73
+61            <meta-data
+61-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+62                android:name="@string/category"
+62-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+63                android:value="@string/category_location" />
+63-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+64            <meta-data
+64-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+65                android:name="android.support.PARENT_ACTIVITY"
+65-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+66                android:value=".activities.FeatureHomeActivity" />
+66-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+67        </activity>
+68        <activity
+68-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:48:9-58:20
+69            android:name="com.FlightMapSdkTestApp.location.CustomLocationIcon"
+69-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:49:13-56
+70            android:description="@string/description_custom_locationicon"
+70-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:50:13-74
+71            android:label="@string/activity_custom_location" >
+71-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:51:13-61
+72            <meta-data
+72-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+73                android:name="@string/category"
+73-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+74                android:value="@string/category_location" />
+74-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+75            <meta-data
+75-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+76                android:name="android.support.PARENT_ACTIVITY"
+76-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+77                android:value=".activities.FeatureHomeActivity" />
+77-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+78        </activity>
+79        <activity
+79-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:59:9-69:20
+80            android:name="com.FlightMapSdkTestApp.Annotation.PolylineActivity"
+80-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:60:13-56
+81            android:description="@string/description_polyline"
+81-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:61:13-63
+82            android:label="@string/activity_polyline" >
+82-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:62:13-54
+83            <meta-data
+83-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+84                android:name="@string/category"
+84-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+85                android:value="@string/category_annotation" />
+85-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+86            <meta-data
+86-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+87                android:name="android.support.PARENT_ACTIVITY"
+87-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+88                android:value=".activities.FeatureHomeActivity" />
+88-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+89        </activity>
+90        <activity
+90-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:70:9-79:20
+91            android:name="com.FlightMapSdkTestApp.Annotation.RotateMarkerActivity"
+91-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:70:19-66
+92            android:description="@string/description_rotatemarker"
+92-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:71:13-67
+93            android:label="@string/activity_rotatemarker" >
+93-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:72:13-58
+94            <meta-data
+94-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+95                android:name="@string/category"
+95-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+96                android:value="@string/category_annotation" />
+96-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+97            <meta-data
+97-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+98                android:name="android.support.PARENT_ACTIVITY"
+98-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+99                android:value=".activities.FeatureHomeActivity" />
+99-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+100        </activity>
+101        <activity
+101-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:80:9-91:20
+102            android:name="com.FlightMapSdkTestApp.Annotation.AddMarkerinBulkActivity"
+102-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:81:13-63
+103            android:configChanges="orientation|keyboardHidden|screenSize"
+103-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:82:13-74
+104            android:description="@string/description_add_bulk_markers"
+104-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:83:13-71
+105            android:label="@string/activity_add_bulk_markers" >
+105-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:84:13-62
+106            <meta-data
+106-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+107                android:name="@string/category"
+107-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+108                android:value="@string/category_annotation" />
+108-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+109            <meta-data
+109-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+110                android:name="android.support.PARENT_ACTIVITY"
+110-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+111                android:value=".activities.FeatureHomeActivity" />
+111-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+112        </activity>
+113        <activity
+113-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:92:9-103:20
+114            android:name="com.FlightMapSdkTestApp.Annotation.PressForMarkerActivity"
+114-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:93:13-62
+115            android:configChanges="orientation|keyboardHidden|screenSize"
+115-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:94:13-74
+116            android:description="@string/description_press_for_marker"
+116-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:95:13-71
+117            android:label="@string/activity_press_for_marker" >
+117-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:96:13-62
+118            <meta-data
+118-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+119                android:name="@string/category"
+119-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+120                android:value="@string/category_annotation" />
+120-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+121            <meta-data
+121-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+122                android:name="android.support.PARENT_ACTIVITY"
+122-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+123                android:value=".activities.FeatureHomeActivity" />
+123-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+124        </activity>
+125        <activity
+125-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:104:9-114:20
+126            android:name="com.FlightMapSdkTestApp.Annotation.DynamicMarkerChangeActivity"
+126-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:105:13-67
+127            android:description="@string/description_dynamic_marker"
+127-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:106:13-69
+128            android:label="@string/activity_dynamic_marker" >
+128-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:107:13-60
+129            <meta-data
+129-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+130                android:name="@string/category"
+130-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+131                android:value="@string/category_annotation" />
+131-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+132            <meta-data
+132-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+133                android:name="android.support.PARENT_ACTIVITY"
+133-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+134                android:value=".activities.FeatureHomeActivity" />
+134-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+135        </activity>
+136        <activity
+136-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:115:9-125:20
+137            android:name="com.FlightMapSdkTestApp.infowindow.InfoWindowActivity"
+137-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:116:13-58
+138            android:description="@string/description_info_window"
+138-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:117:13-66
+139            android:label="@string/activity_info_window" >
+139-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:118:13-57
+140            <meta-data
+140-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+141                android:name="@string/category"
+141-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+142                android:value="@string/category_infowindow" />
+142-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+143            <meta-data
+143-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+144                android:name="android.support.PARENT_ACTIVITY"
+144-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+145                android:value=".activities.FeatureHomeActivity" />
+145-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+146        </activity>
+147        <activity
+147-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:126:9-136:20
+148            android:name="com.FlightMapSdkTestApp.infowindow.DynamicInfoWindowAdapterActivity"
+148-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:127:13-72
+149            android:description="@string/description_dynamic_info_window_adapter"
+149-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:128:13-82
+150            android:label="@string/activity_dynamic_infowindow_adapter" >
+150-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:129:13-72
+151            <meta-data
+151-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+152                android:name="@string/category"
+152-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+153                android:value="@string/category_infowindow" />
+153-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+154            <meta-data
+154-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+155                android:name="android.support.PARENT_ACTIVITY"
+155-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+156                android:value=".activities.FeatureHomeActivity" />
+156-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+157        </activity>
+158        <activity
+158-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:137:9-147:20
+159            android:name="com.FlightMapSdkTestApp.camera.CameraAnimationTypeActivity"
+159-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:138:13-63
+160            android:description="@string/description_camera_animation_types"
+160-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:139:13-77
+161            android:label="@string/activity_camera_animation_types" >
+161-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:140:13-68
+162            <meta-data
+162-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:23:13-25:63
+163                android:name="@string/category"
+163-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:24:17-48
+164                android:value="@string/category_camera" />
+164-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:25:17-60
+165            <meta-data
+165-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:26:13-28:67
+166                android:name="android.support.PARENT_ACTIVITY"
+166-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:27:17-63
+167                android:value=".activities.FeatureHomeActivity" />
+167-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:28:17-64
+168        </activity>
+169        <activity android:name="com.FlightMapSdkTestApp.activities.FeatureHomeActivity" />
+169-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:148:9-68
+169-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:148:19-65
+170        <activity android:name="com.FlightMapSdkTestApp.activities.SplashActivity" />
+170-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:149:9-63
+170-->E:\FlightMapSDKTestApp\app\src\main\AndroidManifest.xml:149:19-60
+171
+172        <provider
+172-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.2] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\8c232325a8da6eb467182b4821039284\jetified-mapbox-android-telemetry-4.7.2\AndroidManifest.xml:16:9-20:39
+173            android:name="com.mapbox.android.telemetry.provider.MapboxTelemetryInitProvider"
+173-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.2] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\8c232325a8da6eb467182b4821039284\jetified-mapbox-android-telemetry-4.7.2\AndroidManifest.xml:17:13-93
+174            android:authorities="com.FlightMapSdkTestApp.mapboxtelemetryinitprovider"
+174-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.2] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\8c232325a8da6eb467182b4821039284\jetified-mapbox-android-telemetry-4.7.2\AndroidManifest.xml:18:13-79
+175            android:exported="false"
+175-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.2] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\8c232325a8da6eb467182b4821039284\jetified-mapbox-android-telemetry-4.7.2\AndroidManifest.xml:19:13-37
+176            android:initOrder="100" />
+176-->[com.mapbox.mapboxsdk:mapbox-android-telemetry:4.7.2] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\8c232325a8da6eb467182b4821039284\jetified-mapbox-android-telemetry-4.7.2\AndroidManifest.xml:20:13-36
+177        <provider
+177-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:30:9-36:35
+178            android:name="androidx.work.impl.WorkManagerInitializer"
+178-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:31:13-69
+179            android:authorities="com.FlightMapSdkTestApp.workmanager-init"
+179-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:32:13-68
+180            android:directBootAware="false"
+180-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:33:13-44
+181            android:exported="false"
+181-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:34:13-37
+182            android:multiprocess="true" />
+182-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:35:13-40
+183
+184        <service
+184-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:38:9-43:35
+185            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+185-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:39:13-88
+186            android:directBootAware="false"
+186-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:40:13-44
+187            android:enabled="@bool/enable_system_alarm_service_default"
+187-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:41:13-72
+188            android:exported="false" />
+188-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:42:13-37
+189        <service
+189-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:44:9-50:35
+190            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+190-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:45:13-84
+191            android:directBootAware="false"
+191-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:46:13-44
+192            android:enabled="@bool/enable_system_job_service_default"
+192-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:47:13-70
+193            android:exported="true"
+193-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:48:13-36
+194            android:permission="android.permission.BIND_JOB_SERVICE" />
+194-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:49:13-69
+195
+196        <receiver
+196-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:52:9-57:35
+197            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+197-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:53:13-88
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:54:13-44
+199            android:enabled="true"
+199-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:55:13-35
+200            android:exported="false" />
+200-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:56:13-37
+201        <receiver
+201-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:58:9-68:20
+202            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+202-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:59:13-106
+203            android:directBootAware="false"
+203-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:60:13-44
+204            android:enabled="false"
+204-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:61:13-36
+205            android:exported="false" >
+205-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:62:13-37
+206            <intent-filter>
+206-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:64:13-67:29
+207                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+207-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:65:17-87
+207-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:65:25-84
+208                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+208-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:66:17-90
+208-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:66:25-87
+209            </intent-filter>
+210        </receiver>
+211        <receiver
+211-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:69:9-79:20
+212            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+212-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:70:13-104
+213            android:directBootAware="false"
+213-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:71:13-44
+214            android:enabled="false"
+214-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:72:13-36
+215            android:exported="false" >
+215-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:73:13-37
+216            <intent-filter>
+216-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:75:13-78:29
+217                <action android:name="android.intent.action.BATTERY_OKAY" />
+217-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:76:17-77
+217-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:76:25-74
+218                <action android:name="android.intent.action.BATTERY_LOW" />
+218-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:77:17-76
+218-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:77:25-73
+219            </intent-filter>
+220        </receiver>
+221        <receiver
+221-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:80:9-90:20
+222            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+222-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:81:13-104
+223            android:directBootAware="false"
+223-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:82:13-44
+224            android:enabled="false"
+224-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:83:13-36
+225            android:exported="false" >
+225-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:84:13-37
+226            <intent-filter>
+226-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:86:13-89:29
+227                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+227-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:87:17-83
+227-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:87:25-80
+228                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+228-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:88:17-82
+228-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:88:25-79
+229            </intent-filter>
+230        </receiver>
+231        <receiver
+231-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:91:9-100:20
+232            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+232-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:92:13-103
+233            android:directBootAware="false"
+233-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:93:13-44
+234            android:enabled="false"
+234-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:94:13-36
+235            android:exported="false" >
+235-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:95:13-37
+236            <intent-filter>
+236-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:97:13-99:29
+237                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+237-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:98:17-79
+237-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:98:25-76
+238            </intent-filter>
+239        </receiver>
+240        <receiver
+240-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:101:9-112:20
+241            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+241-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:102:13-88
+242            android:directBootAware="false"
+242-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:103:13-44
+243            android:enabled="false"
+243-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:104:13-36
+244            android:exported="false" >
+244-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:105:13-37
+245            <intent-filter>
+245-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:107:13-111:29
+246                <action android:name="android.intent.action.BOOT_COMPLETED" />
+246-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:108:17-79
+246-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:108:25-76
+247                <action android:name="android.intent.action.TIME_SET" />
+247-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:109:17-73
+247-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:109:25-70
+248                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+248-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:110:17-81
+248-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:110:25-78
+249            </intent-filter>
+250        </receiver>
+251        <receiver
+251-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:113:9-122:20
+252            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+252-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:114:13-99
+253            android:directBootAware="false"
+253-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:115:13-44
+254            android:enabled="@bool/enable_system_alarm_service_default"
+254-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:116:13-72
+255            android:exported="false" >
+255-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:117:13-37
+256            <intent-filter>
+256-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:119:13-121:29
+257                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+257-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:120:17-98
+257-->[androidx.work:work-runtime:2.2.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\91e91849915c141d352855a6acc8840c\work-runtime-2.2.0\AndroidManifest.xml:120:25-95
+258            </intent-filter>
+259        </receiver>
+260
+261        <service
+261-->[androidx.room:room-runtime:2.1.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\1191579e9bddd2fe969a492a4a4e03af\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+262            android:name="androidx.room.MultiInstanceInvalidationService"
+262-->[androidx.room:room-runtime:2.1.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\1191579e9bddd2fe969a492a4a4e03af\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+263            android:exported="false" />
+263-->[androidx.room:room-runtime:2.1.0] C:\Users\karanveer\.gradle\caches\transforms-2\files-2.1\1191579e9bddd2fe969a492a4a4e03af\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+264    </application>
+265
+266</manifest>

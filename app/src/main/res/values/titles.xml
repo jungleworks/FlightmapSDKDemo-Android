@@ -1,0 +1,14 @@
+<resources>
+    <string name="activity_add_bulk_markers">Add Markers In Bulk</string>
+    <string name="activity_press_for_marker">Press Map For Marker</string>
+    <string name="activity_location_activation_builder">Build Location Activation</string>
+    <string name="activity_polyline">Polyline</string>
+    <string name="activity_polygon">Polygon</string>
+    <string name="activity_rotatemarker">Roatate A Marker</string>
+    <string name="activity_info_window">Standard InfoWindow</string>
+    <string name="activity_infowindow_adapter">Custom InfoWindow</string>
+    <string name="activity_dynamic_infowindow_adapter">Custom Dynamic InfoWindow</string>
+    <string name="activity_camera_animation_types">Animation Types</string>
+    <string name="activity_dynamic_marker">Dynamic Marker</string>
+    <string name="activity_custom_location">Custom Location Icon</string>
+</resources>
