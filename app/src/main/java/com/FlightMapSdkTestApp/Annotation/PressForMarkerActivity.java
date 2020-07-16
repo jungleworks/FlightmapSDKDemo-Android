@@ -9,6 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.FlightMapSdkTestApp.R;
+import com.mapbox.mapboxsdk.Mapbox;
 import com.mapbox.mapboxsdk.annotations.MarkerOptions;
 import com.mapbox.mapboxsdk.geometry.LatLng;
 import com.mapbox.mapboxsdk.maps.MapView;
@@ -38,6 +39,9 @@ public class PressForMarkerActivity extends AppCompatActivity {
   @Override
   protected void onCreate(@Nullable final Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
+    //user can set access token in base activity class or in Particular activity but before inflating a layout
+    //if not declare app will crash if your xml file contains flightmap mapview
+//    Mapbox.getInstance(getApplicationContext(), "");
     setContentView(R.layout.activity_press_for_marker);
 
     mapView = (MapView) findViewById(R.id.mapView);
@@ -55,6 +59,9 @@ public class PressForMarkerActivity extends AppCompatActivity {
         addMarker(point);
         return false;
       });
+
+
+
 
       mFlightMap.setStyle(Style.LIGHT);
       mFlightMap.getUiSettings().setAttributionMargins(280,0,0,20);

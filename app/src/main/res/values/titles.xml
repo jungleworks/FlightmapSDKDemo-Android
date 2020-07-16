@@ -1,4 +1,5 @@
 <resources>
+    <string name="activity_simple_map">Simple Map</string>
     <string name="activity_add_bulk_markers">Add Markers In Bulk</string>
     <string name="activity_press_for_marker">Press Map For Marker</string>
     <string name="activity_location_activation_builder">Build Location Activation</string>

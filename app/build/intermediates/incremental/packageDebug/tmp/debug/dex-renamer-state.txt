@@ -1,4 +1,7 @@
-#Mon Jun 29 12:41:03 IST 2020
-base.0=E\:\\FlightMapSDKTestApp\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
+#Thu Jul 16 14:55:40 IST 2020
+base.0=E\:\\FlightMapSDKTestApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=E\:\\FlightMapSDKTestApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

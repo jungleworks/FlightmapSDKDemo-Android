@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 import com.FlightMapSdkTestApp.R;
@@ -23,6 +24,7 @@ public class LocationComponentActivationActivity extends AppCompatActivity imple
     private MapView mapView;
     private MapboxMap mFlightMap;
     private PermissionsManager permissionsManager;
+    MapView.OnDidFailLoadingMapListener listner;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,11 +67,14 @@ public class LocationComponentActivationActivity extends AppCompatActivity imple
         this.mFlightMap = flightmap;
         flightmap.setStyle(Style.DARK,
                 style -> activateLocationComponent(style));
+
     }
 
     @SuppressLint("MissingPermission")
     private void activateLocationComponent(@NonNull Style style) {
         LocationComponent locationComponent = mFlightMap.getLocationComponent();
+
+
 
         // Activate with options
         locationComponent.activateLocationComponent(

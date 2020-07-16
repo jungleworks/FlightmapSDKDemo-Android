@@ -76,7 +76,7 @@ public class DynamicInfoWindowAdapterActivity extends AppCompatActivity implemen
     map.setStyle(Style.DARK);
     mFlightmap.getUiSettings().setAttributionMargins(280,0,0,20);
     // To set logo margin
-    mFlightmap.getUiSettings().setLogoMargins(0,0,0,120);
+    mFlightmap.getUiSettings().setLogoMargins(0,0,0,20);
     // Add info window adapter
     addCustomInfoWindowAdapter(mFlightmap);
 

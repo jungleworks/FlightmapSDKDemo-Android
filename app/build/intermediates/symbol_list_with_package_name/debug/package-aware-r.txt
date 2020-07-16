@@ -1962,6 +1962,7 @@ layout activity_polygon
 layout activity_polyline
 layout activity_press_for_marker
 layout activity_rotate_marker
+layout activity_simple_map
 layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item
@@ -2084,6 +2085,7 @@ string activity_polygon
 string activity_polyline
 string activity_press_for_marker
 string activity_rotatemarker
+string activity_simple_map
 string add_accesstokenhere
 string amount_of_markers
 string app_name
@@ -2124,6 +2126,7 @@ string description_polygon
 string description_polyline
 string description_press_for_marker
 string description_rotatemarker
+string description_simple_map
 string donthaveaccesstoken
 string dynamic_marker_chandigarh
 string dynamic_marker_chandigarh_snippet
@@ -2136,7 +2139,6 @@ string fab_transformation_sheet_behavior
 string hide_bottom_view_on_scroll_behavior
 string icon_content_description
 string login
-string mapbox_access_token
 string mapbox_attributionErrorNoBrowser
 string mapbox_attributionTelemetryMessage
 string mapbox_attributionTelemetryNegative

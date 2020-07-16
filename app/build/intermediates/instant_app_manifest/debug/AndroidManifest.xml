@@ -6,7 +6,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="16"
+        android:minSdkVersion="21"
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -38,6 +38,18 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
+            android:name="com.FlightMapSdkTestApp.Basic.SimpleMapActivity"
+            android:description="@string/description_simple_map"
+            android:label="@string/activity_simple_map"
+            android:launchMode="singleInstance" >
+            <meta-data
+                android:name="@string/category"
+                android:value="@string/category_basic" />
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.FeatureHomeActivity" />
+        </activity>
+        <activity
             android:name="com.FlightMapSdkTestApp.Annotation.PolygonActivity"
             android:description="@string/description_polygon"
             android:label="@string/activity_polygon" >
@@ -48,13 +60,7 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.FeatureHomeActivity" />
         </activity>
-        <activity android:name="com.FlightMapSdkTestApp.activities.LoginActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="com.FlightMapSdkTestApp.activities.LoginActivity" />
         <activity
             android:name="com.FlightMapSdkTestApp.location.LocationComponentActivationActivity"
             android:description="@string/description_location_activation_builder"
@@ -167,7 +173,13 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".activities.FeatureHomeActivity" />
         </activity>
-        <activity android:name="com.FlightMapSdkTestApp.activities.FeatureHomeActivity" />
+        <activity android:name="com.FlightMapSdkTestApp.activities.FeatureHomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.FlightMapSdkTestApp.activities.SplashActivity" />
 
         <provider

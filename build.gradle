@@ -21,6 +21,8 @@ allprojects {
         google()
         jcenter()
         maven { url 'https://dl.bintray.com/flightmap/com.flightmap' }
+//        maven { url 'https://mapbox.bintray.com/mapbox' }
+//        mavenCentral()
 
     }
 }

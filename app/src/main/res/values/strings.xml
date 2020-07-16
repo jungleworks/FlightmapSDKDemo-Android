@@ -3,6 +3,7 @@
     <string name="description_add_bulk_markers">Add Markers In Bulk to a Map</string>
     <string name="description_press_for_marker">Add marker to map on long press</string>
     <string name="description_location_activation_builder">Use LocationComponentActivationOptions to set options</string>
+    <string name="description_simple_map">Shows a simple map</string>
     <string name="description_polyline">Add a polyline to a map</string>
     <string name="description_polygon">Add a polygon to a map</string>
     <string name="description_rotatemarker">Rotate Marker and update position </string>
@@ -27,7 +28,6 @@
     <string name="description_camera_animation_types">Showcase the different animation types</string>
     <string name="description_custom_locationicon">Custom Location Icon</string>
     <string name="description_dynamic_marker">Update position and icon</string>
-
 
 
 </resources>

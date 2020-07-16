@@ -45,7 +45,7 @@ public class RotateMarkerActivity extends AppCompatActivity {
         View rotatebttn = findViewById(R.id.rotatebttn);
 
             rotatebttn.setOnClickListener(view -> {
-                bearing =180;
+                bearing =bearing+30;
                rotateflightmapmarker(bearing,LAT_LNG_LONDON_EYE);
             });
 
