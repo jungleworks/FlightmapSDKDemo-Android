@@ -54,7 +54,7 @@ sync the project
 
 # Polyline
 - Add a polyline to the map with  cooridnates of lattitude & longitude  from arraylist. Reference Class - PolylineActivity.java
- <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/polygon.jpg" width="300" />
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/polyline.jpg" width="300" />
 
 
 # Animation Types of Camera 
