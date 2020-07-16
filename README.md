@@ -34,10 +34,9 @@ sync the project
 
 # Bulk Annotations
 - Load annotations marker in bulk  to the map via a geojson file from assets folder.Reference Class - AddMarkerinBulkActivity.java
- ![](https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/addmarkerinbulk.gif)
+<img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/addmarkerinbulk.gif" width="48">
 # Dynamic Markers
 - Update the position of a Marker Annoation  with the tap of a button. Reference Class - DynamicMarkerViewController.java
-![](https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/dynamicmarker.gif)
 
 # Add  Marker annotation on tap of Map
 - Add marker annotation to the map by tapping onto a coordinate Reference Class - PressForMarkerActivity.java
