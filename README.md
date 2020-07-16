@@ -72,6 +72,9 @@ sync the project
   <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/usercurrentlocation.jpg" width="300" />
 
  - Change user current location icon with a custom drawble image which have to be mentioned in Style file . Reference Class - CustomLocationIcon.java
+   <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/customuserlocation.gif" width="300" />
+
+ 
 
 
 
