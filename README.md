@@ -34,15 +34,16 @@ sync the project
 
 # Bulk Annotations
 - Load annotations marker in bulk  to the map via a geojson file from assets folder.Reference Class - AddMarkerinBulkActivity.java
-<img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/addmarkerinbulk.gif" width="48">
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/addmarkerinbulk.gif" width="300" />
 # Dynamic Markers
 - Update the position of a Marker Annoation  with the tap of a button. Reference Class - DynamicMarkerViewController.java
-
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/dynamicmarker.gif" width="300" />
 # Add  Marker annotation on tap of Map
 - Add marker annotation to the map by tapping onto a coordinate Reference Class - PressForMarkerActivity.java
-
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/pressmapformarker.gif" width="300" />
 # Marker Rotation with bearing 
 - Rotate a marker annotation image smoothly by providing the bearing and pass the new image in BitMap Utils for rotation. Reference Class - RotateMarkerActivity.java
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/rotateamarker.gif" width="300" />
 
 # Polygon
 - Add a polygon to the map with  cooridnates of lattitude & longitude  from arraylist. Reference Class - DynamicMarkerChangeActivity.java
@@ -55,6 +56,7 @@ sync the project
 
 # Info Window
 - Set a Default  infow window on marker tap . Reference Class - InfoWindowActivity.java
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/standardinfowindow.gif" width="300" />
 
 # Custom Infow Window with custom marker icon
 - Change a layout of infowindow  and set a marker from drawable  image .Reference Class - DynamicInfoWindowAdapterActivity.java 
