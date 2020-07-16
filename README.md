@@ -35,21 +35,27 @@ sync the project
 # Bulk Annotations
 - Load annotations marker in bulk  to the map via a geojson file from assets folder.Reference Class - AddMarkerinBulkActivity.java
  <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/addmarkerinbulk.gif" width="300" />
-# Dynamic Markers
+ 
+ # Dynamic Markers
 - Update the position of a Marker Annoation  with the tap of a button. Reference Class - DynamicMarkerViewController.java
  <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/dynamicmarker.gif" width="300" />
+ 
 # Add  Marker annotation on tap of Map
 - Add marker annotation to the map by tapping onto a coordinate Reference Class - PressForMarkerActivity.java
  <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/pressmapformarker.gif" width="300" />
+ 
 # Marker Rotation with bearing 
-- Rotate a marker annotation image smoothly by providing the bearing and pass the new image in BitMap Utils for rotation. Reference Class - RotateMarkerActivity.java
+- Rotate a marker annotation image smoothly by providing the bearing and pass the new image in BitMap Utils for rotation Reference Class - RotateMarkerActivity.java
  <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/rotateamarker.gif" width="300" />
 
 # Polygon
 - Add a polygon to the map with  cooridnates of lattitude & longitude  from arraylist. Reference Class - DynamicMarkerChangeActivity.java
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/polygon.jpg" width="300" />
 
 # Polyline
 - Add a polyline to the map with  cooridnates of lattitude & longitude  from arraylist. Reference Class - PolylineActivity.java
+ <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/polygon.jpg" width="300" />
+
 
 # Animation Types of Camera 
 - Different type of camera animations to zoom in and zoom out map to a desired coordinates  that are available. Reference Class - CameraAnimationTypeActivity.java
@@ -63,7 +69,8 @@ sync the project
 
 # User Location & Tracking Modes
  - Show user current  location on map . Refernce Controllers . Reference Class- LocationComponentActivationActivity.java
- 
+  <img src="https://github.com/jungleworks/FlightmapSDKDemo-Android/blob/master/usercurrentlocation.jpg" width="300" />
+
  - Change user current location icon with a custom drawble image which have to be mentioned in Style file . Reference Class - CustomLocationIcon.java
 
 
