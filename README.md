@@ -9,14 +9,16 @@ The FlightMap Maps SDK for Android is a library for embedding interactive map vi
 Run the configuration for the FlightMapSdk TestApp module and select a device or emulator to deploy on. Based on the selected device, . You can see the project compiling in the View > Tool Windows > Gradle Console.
 # Additional resources
 - Integrating  the  FlightMap SDK In a Project :-
--Add implementation 'flightmapsdk.flightmaplightsdk:flightmap:1.3.3'  in your Project module app gradle build file
+-Add implementation 'flightmapsdk.flightmaplightsdk:flightmap:1.6.0'  in your Project module app gradle build file
 -Add maven 
 -{ url 'https://dl.bintray.com/flightmap/com.flightmap' }  
 in your Project module gradle root under 
 allprojects {
     repositories {
         jcenter()
-        maven { url 'https://dl.bintray.com/flightmap/com.flightmap' } 
+        maven { url 'https://dl.bintray.com/flightmap/com.flightmap' }
+        maven { url 'https://dl.bintray.com/flightmap/flightmapjavasdk' }
+        maven { url 'https://mapbox.bintray.com/mapbox' }
     }
 }
 sync the project
